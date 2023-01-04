@@ -31,7 +31,8 @@ html {
 body {
   width: 100%;
   max-width: 1920px;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway';
+  font-style: normal;
   position: relative;
 }
 
@@ -179,6 +180,8 @@ header.active {
 .description {
   text-align: center;
   margin-top: 6rem;
+  /* add margin left (margin-left 0) */
+  margin-left: -25rem;
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
