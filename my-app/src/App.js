@@ -3,7 +3,7 @@ function App() {
     <>
   <header className="">
     <div className="container nav-bar">
-      <a href="#" className="logo"></a>
+      <a href="#" className="logo"/>
       <img src="imgs/icon.png" alt="Logo E-Mentor" />
       <nav>
         <ul className="nav__list">
