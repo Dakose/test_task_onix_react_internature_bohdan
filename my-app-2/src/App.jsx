@@ -1,10 +1,10 @@
-function App() {
-  return (
-    <>
+<>
+  {/* Header */}
   <header className="">
     <div className="container nav-bar">
-      <a href="#" className="logo"/>
-      <img src="imgs/icon.png" alt="Logo E-Mentor" />
+      <a href="#" className="logo">
+        <img src="imgs/icon.png" alt="Logo E-Mentor" />
+      </a>
       <nav>
         <ul className="nav__list">
           <li className="nav__item">
@@ -49,7 +49,9 @@ function App() {
       </div>
     </div>
   </header>
+  {/* main */}
   <main>
+    {/* section hero */}
     <section className="section__hero">
       <div className="hero container">
         <div className="left-part">
@@ -89,6 +91,7 @@ function App() {
         </div>
       </div>
     </section>
+    {/* section training */}
     <section className="section__training" id="down">
       <div className="container">
         <div className="about-training">
@@ -109,6 +112,7 @@ function App() {
         </div>
       </div>
     </section>
+    {/* section teacher*/}
     <section className="section__teacher">
       <div className="teacher container">
         <div className="teacher__description">
@@ -153,6 +157,7 @@ function App() {
         </div>
       </div>
     </section>
+    {/* section form training*/}
     <section className="training">
       <div className="form-training container">
         <div className="part-left">
@@ -171,6 +176,7 @@ function App() {
         </div>
       </div>
     </section>
+    {/* section courses*/}
     <section className="cours">
       <div className="cours-section container">
         <h1>Популярные курсы</h1>
@@ -193,6 +199,7 @@ function App() {
         </a>
       </div>
     </section>
+    {/* section consulting*/}
     <section className="consulting">
       <div className="section-consulting container">
         <div className="gauche" />
@@ -207,6 +214,7 @@ function App() {
       </div>
     </section>
   </main>
+  {/* section footer*/}
   <footer>
     <hr className="line1" />
     <div className="footer-contenair container">
@@ -318,8 +326,5 @@ function App() {
   <a href="#" className="up-btn">
     <i className="bx bx-up-arrow-alt" />
   </a>
+  {/* cdn javascript */}
 </>
-  );
-}
-
-export default App;
