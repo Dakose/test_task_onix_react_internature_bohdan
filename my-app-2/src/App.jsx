@@ -1,8 +1,8 @@
-import "./style/scss/style.css"
-import "./style/scss/style.scss"
-import "./style/css/adaptate.css"
-import "./imgs"
-import "./js/index"
+import "./style/scss/style.css";
+import "./style/scss/style.scss";
+import "./style/css/adaptate.css";
+import "./imgs";
+import "./js/index";
 
 <>
   {/* Header */}
