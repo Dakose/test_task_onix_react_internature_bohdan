@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap");
 .mentor, .cours-section, .cours-content, .footer-logo, footer .dev-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8,7 +8,7 @@
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
+          align-items: center; */
 }
 
 .section__training > .container, .teacher, .teacher__content, .training > .form-training, .section-consulting, .footer-content {
