@@ -1,0 +1,10 @@
+%flex-position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%grid-position{
+    display: grid;
+    gap: 4rem;
+}
