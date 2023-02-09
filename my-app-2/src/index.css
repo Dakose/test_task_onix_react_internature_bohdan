@@ -3,7 +3,6 @@
 @import './_variables.scss';
 @import './_placeholders.scss';
 
-
 .mentor, .cours-section, .cours-content, .footer-logo, footer .dev-container {
   display: -webkit-box;
   display: -ms-flexbox;

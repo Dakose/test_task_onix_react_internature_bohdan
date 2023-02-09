@@ -1,14 +1,16 @@
 import React from 'react';
 import {render} from 'react-dom';
+import './App.jsx';
 
 function App() {
   return (
     <>
+    
   {/* Header */}
   <header className="header nav-bar">
     <div className="container nav-bar">
       <a href="#" className="logo">
-        <img src="imgs/icon.png" alt="Logo E-Mentor" />
+        <img src="./imgs/icon.png" alt="Logo E-Mentor" />
       </a>
       <nav>
         <ul className="nav__list">

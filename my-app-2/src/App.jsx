@@ -1,4 +1,6 @@
-"use strict";
+'use strict';
+import React from "react";
+import { Renderer } from "react-dom";
 
 function App() {
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("header", {
