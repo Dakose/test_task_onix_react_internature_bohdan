@@ -1,6 +1,11 @@
 import React from 'react';
 import {render} from 'react-dom';
 import './App.jsx';
+import icon from './icon.png';
+
+function Icon() {
+  return <img src={icon} alt="Logo E-M"/>
+}
 
 function App() {
   return (
@@ -9,7 +14,7 @@ function App() {
   <header className="header nav-bar">
     <div className="container nav-bar">
       <a href="#" className="logo">
-        <img src="./icon.png" alt="Logo E-Mentor" />
+      <img src={icon} alt="Logo E-M"/>
       </a>
       <nav>
         <ul className="nav__list">
@@ -78,7 +83,7 @@ function App() {
         </div>
         <div className="description">
           <div className="mentor">
-            <img src="imgs/icon.png" alt="Logo E-Mentor" />
+            <img src={icon} alt="Logo E-M"/>
             <p>E-Mentor</p>
           </div>
           <h1>Образовательная онлайн-платформа</h1>
