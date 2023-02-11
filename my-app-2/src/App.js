@@ -2,10 +2,9 @@ import React from 'react';
 import {render} from 'react-dom';
 import './App.jsx';
 import icon from './icon.png';
+import leftfoto from './imgs/leftfoto.png';
+import rightfoto from './imgs/rightfoto.png';
 
-function Icon() {
-  return <img src={icon} alt="Logo E-M"/>
-}
 
 function App() {
   return (
@@ -78,7 +77,7 @@ function App() {
             </a>
           </div>
           <div className="left-img">
-            <img src="imgs/1.png" alt="" />
+          <img src={leftfoto} alt="LeftFoto"/>
           </div>
         </div>
         <div className="description">
@@ -97,7 +96,7 @@ function App() {
         </div>
         <div className="right-part">
           <div className="right-img">
-            <img src="imgs/2.png" alt="" />
+          <img src={rightfoto} alt="rightfoto"/>
           </div>
         </div>
       </div>
