@@ -1,10 +1,22 @@
 import React from 'react';
 import {render} from 'react-dom';
 import './App.jsx';
+// import images
 import icon from './icon.png';
 import leftfoto from './imgs/leftfoto.png';
 import rightfoto from './imgs/rightfoto.png';
-
+import one from './imgs/01.png';
+import two from './imgs/02.png';
+import three from './imgs/03.png';
+import four from './imgs/04.png';
+import five from './imgs/05.png';
+import six from './imgs/06.png';
+import seven from './imgs/07.png';
+import eight from './imgs/08.png';
+import nine from './imgs/09.png';
+import ten from './imgs/10.png';
+import eleven from './imgs/11.png';
+import tvelve from './imgs/12.png';
 
 function App() {
   return (
@@ -141,27 +153,27 @@ function App() {
         </div>
         <div className="teacher__content">
           <div className="box box1">
-            <img src="imgs/01.png" alt="Катя, ведущий дизайнер TailGroup" />
+            <img src={one} alt="Катя, ведущий дизайнер TailGroup" />
             <p>Катя, ведущий дизайнер TailGroup</p>
           </div>
           <div className="box box1">
-            <img src="imgs/02.png" alt="Марина, маркетолог Headers Market" />
+            <img src={two} alt="Марина, маркетолог Headers Market" />
             <p>Марина, маркетолог Headers Market</p>
           </div>
           <div className="box box1">
-            <img src="imgs/03.png" alt="Сава, PR-менеджер Central Media" />
+            <img src={three} alt="Сава, PR-менеджер Central Media" />
             <p>Сава, PR-менеджер Central Media</p>
           </div>
           <div className="box box1">
-            <img src="imgs/04.png" alt="Паша, основатель LeadCompany" />
+            <img src={four} alt="Паша, основатель LeadCompany" />
             <p>Паша, основатель LeadCompany</p>
           </div>
           <div className="box box1">
-            <img src="imgs/05.png" alt="Саша, главный редактор Just Journal" />
+            <img src={five} alt="Саша, главный редактор Just Journal" />
             <p>Саша, главный редактор Just Journal</p>
           </div>
           <div className="box box1">
-            <img src="imgs/06.png" alt="Лёня, ведущий разработчик Ymail" />
+            <img src={six} alt="Лёня, ведущий разработчик Ymail" />
             <p>Лёня, ведущий разработчик Ymail</p>
           </div>
         </div>
@@ -171,7 +183,7 @@ function App() {
     <section className="training">
       <div className="form-training container">
         <div className="part-left">
-          <img src="imgs/07.png" alt="Выбирайте свой формат обучения" />
+          <img src={seven} alt="Выбирайте свой формат обучения" />
           <div className="dashed-contour" />
         </div>
         <div className="part-right">
@@ -192,16 +204,16 @@ function App() {
         <h1>Популярные курсы</h1>
         <div className="cours-content">
           <a href="#">
-            <img src="imgs/08.png" alt="Motion design" />
+            <img src={eight} alt="Motion design" />
           </a>
           <a href="#">
-            <img src="imgs/09.png" alt="Motion design" />
+            <img src={nine} alt="Motion design" />
           </a>
           <a href="#">
-            <img src="imgs/10.png" alt="Motion design" />
+            <img src={ten} alt="Motion design" />
           </a>
           <a href="#">
-            <img src="imgs/11.png" alt="Motion design" />
+            <img src={eleven} alt="Motion design" />
           </a>
         </div>
         <a href="#cours" className="btn-cours">
@@ -231,7 +243,7 @@ function App() {
       <div className="footer-content">
         <div className="footer-contact">
           <div className="footer-logo">
-            <img src="imgs/icon.png" alt="" />
+            <img src={icon} alt="" />
             <p>E-Mentor</p>
           </div>
           <p>

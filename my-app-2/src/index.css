@@ -59,6 +59,7 @@ header {
   z-index: 10;
   -webkit-transition: .4s ease-out;
   transition: .4s ease-out;
+  background: #10b782;
 }
 
 header.active {
