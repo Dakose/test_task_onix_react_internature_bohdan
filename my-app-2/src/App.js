@@ -2,7 +2,7 @@ import React from 'react';
 import {render} from 'react-dom';
 import './App.jsx';
 // import images
-import icon from './icon.png';
+import icon from './imgs/icon.png';
 import leftfoto from './imgs/leftfoto.png';
 import rightfoto from './imgs/rightfoto.png';
 import one from './imgs/01.png';
