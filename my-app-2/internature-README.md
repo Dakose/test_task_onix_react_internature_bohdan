@@ -1,3 +1,4 @@
-<!-- created react app -->
-#converse html to jsx, and pushing on git repositorie
-#07/02/2023 pushing and don`t commitet T_T -> build npm run build
+# test_task_onix_react_internature_bohdan
+# Hello everyone, my name is Bohdan Holubnychyi, and this is my test task on React internature for ONIX!
+
+https://dakose.github.io/test_task_onix_react_internature_bohdan/
