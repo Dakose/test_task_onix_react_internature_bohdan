@@ -513,7 +513,7 @@ header.active {
 
 .consulting {
   width: 100%;
-  background: url("../../imgs/12.png");
+  background: url("./imgs/12.png");
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
