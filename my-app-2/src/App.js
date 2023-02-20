@@ -17,7 +17,7 @@ import nine from './imgs/09.png';
 import ten from './imgs/10.png';
 import eleven from './imgs/11.png';
 // functions
-import teacherDescriptionState from './teacherDescriptionState.js';
+import teacherDescriptionState from './functions_index/teacherDescriptionState.js';
 
 function App() {
   return (
