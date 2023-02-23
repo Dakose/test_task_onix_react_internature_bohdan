@@ -136,7 +136,6 @@ function App() {
       </div>
     </section>
     {/* section teacher*/}
-    <div src={teacherDescriptionState} alt=''></div>
     <section className="section__teacher">
       <div className="teacher container">
         <div className="teacher__description">
