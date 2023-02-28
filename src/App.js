@@ -137,6 +137,7 @@ function App() {
       </div>
     </section>
     {/* section teacher*/}
+    <teacherDescriptionState/>
     <section className="section__teacher">
       <div className="teacher container">
         <div className="teacher__description">

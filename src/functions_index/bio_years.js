@@ -25,9 +25,20 @@ const bio = [{
 
 
 const allbio = Object.assign({}, bio);
-console.log(allbio);
+
 
 const sortFun = function (a,b) {
     return a < b ? -1 : 1;
 };
-console.log(allbio.sort(sortFun));
+
+function BioYears () {
+    return (
+        <>
+        <bio/>;
+        <allbio/>;
+        <sortFun/>;
+        </>
+    );
+}
+
+export default BioYears;
