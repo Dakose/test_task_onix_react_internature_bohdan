@@ -19,6 +19,8 @@ import eleven from './imgs/11.png';
 // functions
 import teacherDescriptionState from './functions_index/teacherDescriptionState.js';
 import bio_years from './functions_index/bio_years.js';
+// buttons
+import button_bio from './buttons/testButton.js';
 
 function App() {
   return (
