@@ -13,3 +13,5 @@ handleEdit = (index, key, value) => {
       return { fates: newFates };
     });
   };
+
+  export default handleEdit;

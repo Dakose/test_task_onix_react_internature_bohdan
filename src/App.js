@@ -19,8 +19,7 @@ import eleven from './imgs/11.png';
 // functions
 import teacherDescriptionState from './functions_index/teacherDescriptionState.js';
 import bio_years from './functions_index/bio_years.js';
-// buttons
-import button_bio from './buttons/testButton.js';
+
 
 function App() {
   return (
@@ -341,6 +340,9 @@ function App() {
         GIT © Bohdan Holybnychyi
       </a>
     </p>
+    <div>
+      <bio_years />
+    </div>
   </footer>
   <a href="#" className="up-btn">
     <i className="bx bx-up-arrow-alt" />

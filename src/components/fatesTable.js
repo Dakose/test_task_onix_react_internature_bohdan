@@ -8,3 +8,5 @@ class FatesTable extends React.Component {
       this.state = { fates: [] };
     }
   };
+
+export default fatesTable;

@@ -1,6 +1,11 @@
 import React from 'react';
 import {render} from 'react-dom';
 import { Component } from 'react';
+//components
+import addClick from '../buttons/addClick.js';
+import removeClick from '../buttons/removeClick.js';
+import fatesTable from '../components/fatesTable';
+import handleEdit from '../components/handleEdit';
 
 // name and bio information
 const bio = [{
@@ -26,17 +31,13 @@ const bio = [{
 
 const allbio = Object.assign({}, bio);
 
-
-const sortFun = function (a,b) {
-    return a < b ? -1 : 1;
-};
-
 function BioYears () {
     return (
         <>
         <bio/>;
         <allbio/>;
-        <sortFun/>;
+        <addClick />;
+        <removeClick />;
         </>
     );
 }
