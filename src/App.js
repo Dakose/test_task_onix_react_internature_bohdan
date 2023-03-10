@@ -18,7 +18,7 @@ import ten from './imgs/10.png';
 import eleven from './imgs/11.png';
 // functions
 import teacherDescriptionState from './functions_index/teacherDescriptionState.js';
-import bio_years from './functions_index/bio_years.js';
+// import bio_years from './functions_index/bio_years.js'; //many more errors...
 
 
 function App() {
