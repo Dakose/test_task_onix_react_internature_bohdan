@@ -17,8 +17,9 @@ import nine from '../imgs/09.png';
 import ten from '../imgs/10.png';
 import eleven from '../imgs/11.png';
 
+
 function Main () {
-    render (
+    return (
         <>
         <main>
     {/* section hero */}
