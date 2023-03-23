@@ -1,6 +1,7 @@
 import React from "react";
 import { render } from "react-dom";
 import { Component } from "react";
+import icon from '../imgs/icon.png';
 
 function Header () {
     return(

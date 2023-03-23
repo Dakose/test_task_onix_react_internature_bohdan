@@ -2,20 +2,20 @@ import React from "react";
 import { render } from "react-dom";
 import { Component } from "react";
 // import images
-import icon from './imgs/icon.png';
-import leftfoto from './imgs/leftfoto.png';
-import rightfoto from './imgs/rightfoto.png';
-import one from './imgs/01.png';
-import two from './imgs/02.png';
-import three from './imgs/03.png';
-import four from './imgs/04.png';
-import five from './imgs/05.png';
-import six from './imgs/06.png';
-import seven from './imgs/07.png';
-import eight from './imgs/08.png';
-import nine from './imgs/09.png';
-import ten from './imgs/10.png';
-import eleven from './imgs/11.png';
+import icon from '../imgs/icon.png';
+import leftfoto from '../imgs/leftfoto.png';
+import rightfoto from '../imgs/rightfoto.png';
+import one from '../imgs/01.png';
+import two from '../imgs/02.png';
+import three from '../imgs/03.png';
+import four from '../imgs/04.png';
+import five from '../imgs/05.png';
+import six from '../imgs/06.png';
+import seven from '../imgs/07.png';
+import eight from '../imgs/08.png';
+import nine from '../imgs/09.png';
+import ten from '../imgs/10.png';
+import eleven from '../imgs/11.png';
 
 function Main () {
     render (

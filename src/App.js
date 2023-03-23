@@ -2,17 +2,17 @@ import React from 'react';
 import {render} from 'react-dom';
 import { Component } from 'react';
 
-import Header from './components/header/header.jsx';
-import Main from './components/main/main.jsx';
-import Footer from './components/footer/footer.jsx';
+import Header from './components/header/Header.jsx';
+import Main from './components/main/Main.jsx';
+import Footer from './components/footer/Footer.jsx';
 
 function App() {
   return (
     <>
-    <div>
-    </div>
+    <Header />
+    <Main />
+    <Footer />
     </>
-
   );
 }
 
