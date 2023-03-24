@@ -16,7 +16,6 @@ import eight from '../imgs/08.png';
 import nine from '../imgs/09.png';
 import ten from '../imgs/10.png';
 import eleven from '../imgs/11.png';
-import BioYears from '../../functions_index/BioYears.js';
 
 function Main () {
     return (
@@ -173,7 +172,6 @@ function Main () {
             подарим вам дополнительные лекции по любому направлению бесплатно!
           </p>
           <a href="#">Выбрать тариф</a>
-          <BioYears />
         </div>
       </div>
     </section>
