@@ -1,9 +1,10 @@
 import React from "react";
-import '../index.css';
 
-export default function App() {
+function testButton () {
     const clickHandle = () => console.log("test button");
     return(
         <button onClick={clickHandle}>Test Button</button>
     );
 }
+
+export default testButton;
