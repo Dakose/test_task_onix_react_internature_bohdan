@@ -1,5 +1,5 @@
 import React from "react";
-import BioYears from "../functions_index/bio_years";
+import BioYears from "../functions_index/BioYears";
 
 handleEdit = (index, key, value) => {
     this.setState(prevState => {
