@@ -9,4 +9,4 @@ class FatesTable extends React.Component {
     }
   };
 
-export default fatesTable;
+export default FatesTable;
