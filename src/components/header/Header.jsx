@@ -1,6 +1,8 @@
 import React from "react";
+import PropTypes from 'prop-types';
 import { render } from "react-dom";
 import { Component } from "react";
+import { StarWars } from "../StarWars/StarWars";
 import icon from '../imgs/icon.png';
 
 function Header () {
@@ -46,6 +48,11 @@ function Header () {
           <li className="nav__item">
             <a href="#contact" className="nav__link">
               Контакты
+            </a>
+          </li>
+          <li className="nav__item">
+            <a href="#starwars" className="nav__link">
+              <StarWars>StarWars</StarWars>
             </a>
           </li>
         </ul>

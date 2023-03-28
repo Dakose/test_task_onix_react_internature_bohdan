@@ -1,11 +1,23 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './FirstButton.scss';
+// import './button.scss'; //style button
 
-export const FirstButton = ({
+export const Button = ({
   text, variant, disabled, onClick,
 }) => (
   <button type="button" disabled={disabled} className={`button ${variant} ${disabled ? 'disabled' : ''}`} onClick={onClick}>
     <span>{text}</span>
   </button>
 );
+Button.propTypes = {
+  text: PropTypes.string.isRequired,
+  variant: PropTypes.oneOf(['primary', 'secondary', 'small', 'cart']),
+  disabled: PropTypes.bool,
+  onClick: PropTypes.func,
+};
+
+Button.defaultProps = {
+  variant: 'primary',
+  disabled: false,
+  onClick: () => {},
+};
