@@ -3,12 +3,14 @@ import PropTypes from 'prop-types';
 import Footer from '../footer/Footer.jsx';
 // import './starDB.scss'; //add styles
 import { FirstButton } from '../buttons/FirstButton.js';
+import Header from '../header/Header.jsx';
 // import { ButtonVariants } from '../../constants/constants';
 
 export const StarWars = ({
   items, onItemsLoad, disabled,
 }) => (
   <>
+  <Header />
     <header id='star_wars'>
       <div className="wrapper">
         <div className="headerContainer">
