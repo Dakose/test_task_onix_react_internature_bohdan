@@ -9,10 +9,9 @@ export const StarWars = ({
   items, onItemsLoad, disabled,
 }) => (
   <>
-    <header>
+    <header id='star_wars'>
       <div className="wrapper">
         <div className="headerContainer">
-          <h3 className="headerLogo">Pompeo</h3>
           <nav className="headerStarMenu">
             <ul className="headerList">
               {/* <li className="headerItem">
@@ -26,7 +25,7 @@ export const StarWars = ({
     <div className="wrapper">
       <h1 className="starTitle">StarWars</h1>
       <div className="starFlex">
-        {items.map((item) => (
+        {(item) => (
           <div className="starCard" key={item.name}>
             <div className="starImage">
               <img className="starPhoto" src={item.image} alt="alt" />
@@ -46,7 +45,7 @@ export const StarWars = ({
               </h3>
             </div>
           </div>
-        ))}
+        )}
         {/* <div className="starButtonContainer">
           <Button text="More" variant={buttonVariants.secondary} disabled={disabled} onClick={() => onItemsLoad()} />
         </div> */}

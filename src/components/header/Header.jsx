@@ -10,7 +10,7 @@ function Header () {
         <>
         <header className="header nav-bar">
     <div className="container nav-bar">
-      <a href="#" className="logo">
+      <a href="#section__hero" className="logo">
       <img src={icon} alt="Logo E-M"/>
       </a>
       <nav>
@@ -51,8 +51,8 @@ function Header () {
             </a>
           </li>
           <li className="nav__item">
-            <a href="#starwars" className="nav__link">
-              <StarWars>StarWars</StarWars>
+            <a href="#star_wars" className="nav__link">
+            StarWars
             </a>
           </li>
         </ul>

@@ -22,7 +22,7 @@ function Main () {
         <>
         <main>
     {/* section hero */}
-    <section className="section__hero">
+    <section id="section__hero" className="section__hero">
       <div className="hero container">
         <div className="left-part">
           <div className="social">
