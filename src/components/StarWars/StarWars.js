@@ -1,6 +1,9 @@
 import React from 'react';
+import { ReactDOM } from 'react';
+import { Router, Route } from 'react-dom'
 import PropTypes from 'prop-types';
 import Footer from '../footer/Footer.jsx';
+
 // import './starDB.scss'; //add styles
 import { FirstButton } from '../buttons/FirstButton.js';
 import Header from '../header/Header.jsx';

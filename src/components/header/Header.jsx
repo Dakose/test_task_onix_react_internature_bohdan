@@ -1,4 +1,5 @@
 import React from "react";
+import { ReactDOM } from 'react';
 import PropTypes from 'prop-types';
 import { render } from "react-dom";
 import { Component } from "react";
@@ -51,9 +52,7 @@ function Header () {
             </a>
           </li>
           <li className="nav__item">
-            <a link="./components/StarWars/StarWars.js" href="#star_wars" className="nav__link">
-            <li onClick={StarWars}>StarWars</li>
-            </a>
+            <a href="/StarWars" className="nav__link">StarWars</a>
           </li>
         </ul>
       </nav>
