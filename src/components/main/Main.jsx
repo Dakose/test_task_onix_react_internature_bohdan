@@ -2,6 +2,8 @@ import React from "react";
 import { ReactDOM } from "react";
 import { render } from "react-dom";
 import { Component } from "react";
+
+import { themeSwitcher } from "../buttons/themeSwitcher/themeSwitcher";
 // import images
 import icon from '../imgs/icon.png';
 import leftfoto from '../imgs/leftfoto.png';
@@ -21,8 +23,9 @@ import eleven from '../imgs/11.png';
 function Main () {
     return (
         <>
-        <main>
+        <main data-theme="light">
     {/* section hero */}
+      <themeSwitcher />
     <section id="section__hero" className="section__hero">
       <div className="hero container">
         <div className="left-part">
