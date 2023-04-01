@@ -51,8 +51,8 @@ function Header () {
             </a>
           </li>
           <li className="nav__item">
-            <a href="#star_wars" className="nav__link">
-            StarWars
+            <a link="./components/StarWars/StarWars.js" href="#star_wars" className="nav__link">
+            <li onClick={StarWars}>StarWars</li>
             </a>
           </li>
         </ul>
