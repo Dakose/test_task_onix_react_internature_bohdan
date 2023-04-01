@@ -1,21 +1,62 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 
-}
+} */
 /* Light theme */
-body[data-theme="light"] {
+/* body[data-theme="light"] {
     --color-1: rgb(196, 220, 241);
     --color-2: white;
     --color-3: rgb(200, 200, 200);
     --color-4: rgb(80, 82, 110);
-}
+} */
 
 /* Dark theme */
-body[data-theme="dark"] {
+/* body[data-theme="dark"] {
     --color-1: #1e1f26;
     --color-2: #292c33;
     --color-3: rgb(39, 40, 42);
     --color-4: rgb(186, 186, 202);
+} */
+
+.theme-switcher{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+input{
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+label{
+    cursor: pointer;
+    display: block;
+    text-indent: -9999px;
+    height: 30px;
+    width: 60px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    transition: .5s ease background-color;
+}
+label::after{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: rgb(19, 16, 31);
+    top: 50px;
+    left: 5px;
+    transform: translateY(-50%);
+    transition: .5s ease;
+}
+input:checked + label{
+    background-color: rgb(25, 26 37);
+    border: 2px solid whitesmoke;
+}
+input:checked + label::after{
+    background-color: aliceblue;
+    left: calc(100% - 25px);
 }
