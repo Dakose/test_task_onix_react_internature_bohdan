@@ -1,4 +1,5 @@
 import React from "react";
+import { ReactDOM } from "react";
 import { render } from "react-dom";
 import { Component } from "react";
 // import images
