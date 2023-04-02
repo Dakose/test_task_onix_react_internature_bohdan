@@ -2,9 +2,9 @@ import React from "react"
 import { ReactDOM } from "react"
 import { render } from "react-dom"
 import "./themeSwitcher.css";
-import "./themeSwitcher.js";
+import "./ThemeSwitcher.js";
 
-export function themeSwitcher () {
+export function ThemeSwitcher () {
     <script src="./themeSwitcher.js"></script>
     return(
         <div className="theme-switcher">

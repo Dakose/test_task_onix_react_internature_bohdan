@@ -3,7 +3,7 @@ import { ReactDOM } from "react";
 import { render } from "react-dom";
 import { Component } from "react";
 
-import { themeSwitcher } from "../buttons/themeSwitcher/themeSwitcher.jsx";
+import { themeSwitcher } from "../buttons/themeSwitcher/ThemeSwitcher.jsx";
 // import images
 import icon from '../imgs/icon.png';
 import leftfoto from '../imgs/leftfoto.png';

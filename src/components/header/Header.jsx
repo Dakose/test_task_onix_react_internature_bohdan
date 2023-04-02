@@ -5,7 +5,7 @@ import { render } from "react-dom";
 import { Component } from "react";
 import { StarWars } from "../StarWars/StarWars";
 import icon from '../imgs/icon.png';
-import { themeSwitcher } from "../buttons/themeSwitcher/themeSwitcher.jsx";
+import { themeSwitcher } from "../buttons/themeSwitcher/ThemeSwitcher.jsx";
 
 function Header () {
     return(

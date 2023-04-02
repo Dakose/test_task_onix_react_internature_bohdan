@@ -2,7 +2,7 @@ import React from "react"
 import { ReactDOM } from "react"
 import { render } from "react-dom"
 
-export function themeSwitcher () {
+export function ThemeSwitcher () {
     input = document.querySelector('.theme-switcher input');
     render(
         input.addEventListener('change', (e)=> {
