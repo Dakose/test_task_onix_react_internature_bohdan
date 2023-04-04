@@ -1,4 +1,4 @@
-export function ThemeSwitcher () {
+export function Theme_Switcher () {
     return(
         document.querySelector('.theme-switcher input').addEventListener('change', (e)=> {
             if(e.target.checked){
