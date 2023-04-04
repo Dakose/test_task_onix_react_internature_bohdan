@@ -55,11 +55,11 @@ function Header () {
           <li className="nav__item">
             <a href="/StarWars" className="nav__link">StarWars</a>
           </li>
-          <li className="theme-switcher">
-            <ThemeSwitcher />
-          </li>
         </ul>
       </nav>
+      <div className="theme-switcher">
+      <ThemeSwitcher />
+      </div>
       <div className="menu__toggle" id="menu-toggle">
         <i className="bx bx-menu" />
       </div>
