@@ -895,7 +895,11 @@ footer .dev-container {
 .right-img > img{
   opacity: 0;
   transform: scale(.7);
-  animation: appear-hero 2.3s ease-in-out forwards; ;
+  animation: appear-hero 1.5s ease-in-out forwards ;
+}
+.header {
+  opacity: 0.1;
+  animation: appear-hero 0.3s ease-in-out forwards ;
 }
 
 @keyframes appear-hero{
