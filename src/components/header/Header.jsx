@@ -5,7 +5,7 @@ import { render } from "react-dom";
 import { Component } from "react";
 import { StarWars } from "../StarWars/StarWars";
 import icon from '../imgs/icon.png';
-import { themeSwitcher } from "../buttons/themeSwitcher/ThemeSwitcher.jsx";
+import { ThemeSwitcher, themeSwitcher } from "../buttons/themeSwitcher/ThemeSwitcher.jsx";
 
 function Header () {
     return(
@@ -55,10 +55,10 @@ function Header () {
           <li className="nav__item">
             <a href="/StarWars" className="nav__link">StarWars</a>
           </li>
+          <li className="theme-switcher">
+            <ThemeSwitcher />
+          </li>
         </ul>
-        <div>
-          <themeSwitcher />
-        </div>
       </nav>
       <div className="menu__toggle" id="menu-toggle">
         <i className="bx bx-menu" />
