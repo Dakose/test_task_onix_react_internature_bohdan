@@ -9,6 +9,7 @@ export function ThemeSwitcher () {
         <div className="theme-switcher">
         <input type="checkbox" id="switcher"></input>
         <label for="switcher">Switch</label>
+        <script src="./Theme_Switcher.js"></script>
         </div>
     );
 }
