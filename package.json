@@ -1,7 +1,7 @@
 {
   "name": "my-app-2",
   "version": "0.1.0",
-  "homepage": "https://github.com/Dakose/test_task_onix_react_internature_bohdan",
+  "homepage": "https://dakose.github.io/test_task_onix_react_internature_bohdan/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
