@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Dakose/test_task_onix_react_internature_bohdan/static/css/main.2694e4f4.css",
+    "main.js": "/Dakose/test_task_onix_react_internature_bohdan/static/js/main.5074cf88.js",
+    "static/js/787.ca1567ff.chunk.js": "/Dakose/test_task_onix_react_internature_bohdan/static/js/787.ca1567ff.chunk.js",
+    "static/media/12.png": "/Dakose/test_task_onix_react_internature_bohdan/static/media/12.22c7c950b0f4ef7d89ab.png",
+    "static/media/07.png": "/Dakose/test_task_onix_react_internature_bohdan/static/media/07.acae111e97fcb6dfd883.png",
+    "static/media/rightfoto.png": "/Dakose/test_task_onix_react_internature_bohdan/static/media/rightfoto.240033513178db6c9239.png",
+    "static/media/leftfoto.png": "/Dakose/test_task_onix_react_internature_bohdan/static/media/leftfoto.885e7c9716132849de15.png",
+    "static/media/06.png": "/Dakose/test_task_onix_react_internature_bohdan/static/media/06.b3422775df2a284da668.png",
+    "static/media/02.png": "/Dakose/test_task_onix_react_internature_bohdan/static/media/02.fe747a577e708fffd831.png",
+    "static/media/09.png": "/Dakose/test_task_onix_react_internature_bohdan/static/media/09.db1f9c623712759cd6e7.png",
+    "static/media/04.png": "/Dakose/test_task_onix_react_internature_bohdan/static/media/04.10bea6ca41447c4a7098.png",
+    "static/media/05.png": "/Dakose/test_task_onix_react_internature_bohdan/static/media/05.fc80a9368111d0347d7c.png",
+    "static/media/03.png": "/Dakose/test_task_onix_react_internature_bohdan/static/media/03.27ce5413d1ce3a400471.png",
+    "static/media/01.png": "/Dakose/test_task_onix_react_internature_bohdan/static/media/01.12617f0360754ca256cf.png",
+    "static/media/08.png": "/Dakose/test_task_onix_react_internature_bohdan/static/media/08.af29ffb7d3ba4869284d.png",
+    "static/media/11.png": "/Dakose/test_task_onix_react_internature_bohdan/static/media/11.751cc127cb1c331c2637.png",
+    "static/media/10.png": "/Dakose/test_task_onix_react_internature_bohdan/static/media/10.4f6b78e41453fd7ce293.png",
+    "index.html": "/Dakose/test_task_onix_react_internature_bohdan/index.html",
+    "main.2694e4f4.css.map": "/Dakose/test_task_onix_react_internature_bohdan/static/css/main.2694e4f4.css.map",
+    "main.5074cf88.js.map": "/Dakose/test_task_onix_react_internature_bohdan/static/js/main.5074cf88.js.map",
+    "787.ca1567ff.chunk.js.map": "/Dakose/test_task_onix_react_internature_bohdan/static/js/787.ca1567ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2694e4f4.css",
+    "static/js/main.5074cf88.js"
+  ]
+}
