@@ -92,27 +92,27 @@ function Footer () {
         ONIX TEST TASK © 2022 - <span id="current-year">2022</span>
       </p>
       <div className="data">
-        <p>Политика обработки персональных данных</p>
-        <p>Публичная оферта</p>
+      <p className="container dev-container">
+        <a
+          href="https://www.figma.com/file/8OpZzALnqpoekHAoe9toSk/ementor?node-id=0%3A1"
+          target="_blank"
+        >
+        FIGMA  
+        </a>
+      </p>
+      <p className="container dev-container">
+        <a
+          href="https://github.com/Dakose/test_task_onix_react_internature_bohdan"
+          target="_blank"
+        >
+        GIT  
+        </a>
+      </p>
       </div>
     </div>
     <hr className="line3" />
-    <p className="container dev-container">
-      <a
-        href="https://www.figma.com/file/8OpZzALnqpoekHAoe9toSk/ementor?node-id=0%3A1"
-        target="_blank"
-      >
-        FIGMA © Пример страницы
-      </a>
-    </p>
-    <p className="container dev-container">
-      <a
-        href="https://github.com/Dakose/test_task_onix_react_internature_bohdan"
-        target="_blank"
-      >
-        GIT © Bohdan Holybnychyi
-      </a>
-    </p>
+    
+    
   </footer>
         </>
     );

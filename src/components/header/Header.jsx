@@ -52,9 +52,9 @@ function Header () {
               Контакты
             </a>
           </li>
-          <li className="nav__item">
+          {/* <li className="nav__item">
             <a href="/StarWars" className="nav__link">StarWars</a>
-          </li>
+          </li> */}
         </ul>
       </nav>
       <div className="theme-switcher">
