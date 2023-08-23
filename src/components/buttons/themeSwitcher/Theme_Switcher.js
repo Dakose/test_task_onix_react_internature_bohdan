@@ -1,3 +1,6 @@
+import React from "react";
+
+
 export function Theme_Switcher () {
     return(
         document.querySelector('.theme-switcher input').addEventListener('change', (e)=> {
